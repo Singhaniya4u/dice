@@ -9,6 +9,7 @@ document.querySelector(".img2").setAttribute("src", imge2);
 winner(randomNumber1,randomNumber2);
 
 function winner(randomNumber1, randomNumber2){
+    document.querySelector("h1").textContent = "Refresh Me";
     if(randomNumber1>randomNumber2){
         document.querySelector("h1").textContent = "🚩Player 1 Wins";
     }
